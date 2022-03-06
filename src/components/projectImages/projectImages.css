@@ -1,0 +1,33 @@
+.pi{
+    width: 45%;
+    height: 40vh;
+    margin: 10px;
+    border: 2px solid rgb(20, 100, 225);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.pi-top{
+    height: 20px;
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    background-color: lightskyblue;
+    align-items: center;
+}
+
+.pi-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+
+.pi-img{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.pi:hover .pi-img{
+    transform: translateY(-100%);
+}
