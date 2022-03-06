@@ -1,0 +1,13 @@
+.pv{
+    width: 45%;
+    height: 35vh;
+    margin: 5px;
+    border: 2px solid rgb(0, 29, 77);
+    overflow: hidden;
+}
+
+.pv iframe{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
